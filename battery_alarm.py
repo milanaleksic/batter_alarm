@@ -1,6 +1,6 @@
 import subprocess
 
-THRESHOLD = 101
+THRESHOLD = 20
 
 
 def run():
