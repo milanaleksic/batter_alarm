@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Battery Alarm
+
+[Timer]
+OnBootSec=5min
+OnCalendar=*:0/1
+Unit=battery-alarm.target
+
+[Install]
+WantedBy=default.target
