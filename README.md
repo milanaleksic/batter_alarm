@@ -25,5 +25,5 @@ Install to systemd and run
 sudo cp battery-alarm.* /etc/systemd/system
 sudo systemctl enable battery-alarm.service
 sudo systemctl enable battery-alarm.timer
-sudo systemctl start batery-alarm.service
+sudo systemctl start battery-alarm.service
 ```
